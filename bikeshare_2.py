@@ -30,7 +30,7 @@ def check_input(input_str,input_type):
                 if input_type == 3:
                     print("Sorry, your input should be: sunday, ... friday, saturday or all")
         except ValueError:
-            print("Sorry, your input is wrong")
+            print("Sorry, your input is wrong! Try agian.")
     return input_read
 
 def get_filters():
